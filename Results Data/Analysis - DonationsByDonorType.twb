@@ -11,7 +11,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='DonationsByDonorType' name='textscan.1hiybsf1sewzf219x25mp0ats84v'>
-            <connection class='textscan' directory='/Users/marlongeraldorodriguesviana/Marlon/Programming for Data Analytics/Project Results Data' filename='DonationsByDonorType.csv' password='' server='' />
+            <connection class='textscan' directory='/Users/marlongeraldorodriguesviana/Marlon/Programming for Data Analytics/Project/Results Data' filename='DonationsByDonorType.csv' password='' server='' />
           </named-connection>
         </named-connections>
         <relation connection='textscan.1hiybsf1sewzf219x25mp0ats84v' name='DonationsByDonorType.csv' table='[DonationsByDonorType#csv]' type='table'>
@@ -73,7 +73,7 @@
       <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
         <calculation class='tableau' formula='1' />
       </column>
-      <layout dim-ordering='alphabetic' dim-percentage='0.478261' measure-ordering='alphabetic' measure-percentage='0.521739' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.475524' measure-ordering='alphabetic' measure-percentage='0.524476' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;Ireland&quot;' />
       </semantic-values>
