@@ -73,7 +73,7 @@
       <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
         <calculation class='tableau' formula='1' />
       </column>
-      <layout dim-ordering='alphabetic' dim-percentage='0.475524' measure-ordering='alphabetic' measure-percentage='0.524476' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.478261' measure-ordering='alphabetic' measure-percentage='0.521739' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;Ireland&quot;' />
       </semantic-values>
@@ -84,7 +84,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run>Total Donations - Is Donor a Teacher?</run>
+            <run>Total Donations</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -103,7 +103,15 @@
           </datasource-dependencies>
           <aggregation value='true' />
         </view>
-        <style />
+        <style>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1ruhwh515c4v5g1b7gu811sjqohm].[none:F1:nk]' value='Is Donor a Teacher?'>
+              <formatted-text>
+                <run>Is Donor a Teacher?</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
         <panes>
           <pane selection-relaxation-option='selection-relaxation-allow'>
             <view>
@@ -161,13 +169,6 @@
           </strip>
         </edge>
       </cards>
-      <viewpoint>
-        <highlight>
-          <color-one-way>
-            <field>[federated.1ruhwh515c4v5g1b7gu811sjqohm].[none:F1:nk]</field>
-          </color-one-way>
-        </highlight>
-      </viewpoint>
     </window>
   </windows>
   <thumbnails>

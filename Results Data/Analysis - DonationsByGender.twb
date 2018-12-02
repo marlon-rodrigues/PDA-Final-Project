@@ -94,6 +94,13 @@
   </datasources>
   <worksheets>
     <worksheet name='DonationsByGender'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Teachers Total Donations</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources>
